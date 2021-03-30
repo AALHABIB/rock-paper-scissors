@@ -1,5 +1,6 @@
-// PROMPT USER FOR CHOICE => SAVE CHOICE TO USER INPUT
-const userInput = prompt('Will it be Rock, Paper, or Scissors?');
+// PROMPT USER FOR CHOICE => CONVERT TO LOWERCASE => SAVE CHOICE TO USER INPUT
+let userInput = prompt('Will it be Rock, Paper, or Scissors?');
+userInput = userInput.toLowerCase();
 
 // GET RANDOM COMPUTER CHOICE
 
@@ -21,3 +22,8 @@ function computerPlay() {
     
 }
 
+// COMPARE USERINPUT WITH COMPUTER CHOICE
+
+// function playRound(userInput, computerChoice) {
+//     if 
+// }
