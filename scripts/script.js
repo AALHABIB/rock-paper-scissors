@@ -1,4 +1,5 @@
-
+// PROMPT USER FOR CHOICE => SAVE CHOICE TO USER INPUT
+const userInput = prompt('Will it be Rock, Paper, or Scissors?');
 
 // GET RANDOM COMPUTER CHOICE
 
@@ -19,3 +20,4 @@ function computerPlay() {
     };
     
 }
+
